@@ -1,0 +1,167 @@
+a{
+    text-decoration: none;
+    color:white;
+}
+
+.header{
+    background-image: url("/C:Users/Hp/Desktop/aboutusimg.png");
+    background-size: 100% 500px;
+    height: 500px;   
+}
+
+.header-logo{
+    font-size:10px;
+    color:white;
+    float: left;
+}
+
+.header-logo b{
+    padding: 7px 0px 0px 5px;
+    font-size: 20px;
+    float : right;
+}
+
+.header-logo img{
+    padding : 5px 0px 0px 5px;
+    width: 30px;
+    height:30px;
+}
+
+.navbar{
+    float: right;
+    padding:8px 30px 0px 30px;
+}
+
+.navbar a:hover{
+    background-color: #f39d1a;
+}
+
+.navigation{
+    position: absolute;
+    top:63%;
+    left:33%;
+    transform: translate(10px);
+    z-index: 1;
+    background-color:#f5f4f4;
+    border: 1px solid #d8d8d8;
+}
+
+.navigation li{
+    list-style-type: none;
+    display: inline-block;
+    top:10%;
+    width: 145px;
+}
+
+.navigation li a{
+    color:#000;
+}
+
+.navigation li a:hover{
+    background-color:#f39d1a;
+}
+
+.main{
+    background-size: 100% 75%;
+    position: relative;
+    height: 3000px;
+    width: 100%; 
+}
+
+.titleblock{
+    background-color:#0009;
+    color:white;
+    height:40px;
+}
+
+.Motive , .Events  {
+    width: 800px;
+    height: 900px;
+    margin-left: 350px;
+    margin-top:30px;
+    padding-top:30px;
+    text-align: center;
+    border-bottom:1px solid lightgray;
+    border-width: 2px;
+}
+
+.Team-Member{
+    background-color: #192024;
+    width: 100%;
+    height: 1200px;
+    margin-top:30px;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color:white;
+}
+
+.Motive p , .Events p ,.Team-Member p{
+    font-size:40px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    color:rgb(59, 57, 57);
+}
+
+.Events span {
+    color:rgb(87, 85, 85);
+    text-decoration: underline;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size:50px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.Team-Member span{
+    color:rgb(235, 224, 224);
+    text-decoration: underline;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size:50px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.cells{
+    padding-left:175px;
+    padding-right: 175px;
+}
+
+.cell{
+    margin:0.1%;
+}
+
+.details img{
+    border-radius: 50%;
+}
+
+.details{
+    margin:0.1%;
+    display:flex;
+    justify-content: space-around;
+}
+
+
+.footer{
+    background: rgb(34, 33, 33);
+    height:150px;
+}
+
+.footer-logo{
+    float: left;
+}
+
+.footer-logo img{
+    padding:10px;
+    height: 100px;
+    width: 100px;
+    color:white;
+}
+
+.footer-list{
+    float:right;
+    padding:10px 100px 50px 0px;
+    color:white;
+}
+
+.footer-list img{
+    height:50px;
+}
