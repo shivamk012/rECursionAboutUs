@@ -56,7 +56,6 @@ a{
 .navigation li{
     list-style-type: none;
     display: inline-block;
-    top:10%;
     width: 145px;
 }
 
