@@ -48,7 +48,7 @@ a{
     position: absolute;
     top:487px;
     left:33%;
-    transform: translate(10px);
+    transform: translate(1px);
     z-index: 1;
     background-color:#0009;
 }
