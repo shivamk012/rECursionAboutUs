@@ -45,7 +45,7 @@ a{
     padding-left: 30px;
     padding-top:4px;
     height: 27px;
-    position: absolute;
+    position: relative;
     top:64%;
     left:33%;
     transform: translate(10px);
