@@ -9,20 +9,19 @@ a{
 }
 
 .header{
-    background-image: url("aboutusimg2.jpg");
+    background-image: url("aboutusimg.jpg");
     background-size: 100% 500px;
     height: 500px;   
 }
 
 .header-logo{
-    font-size:10px;
+    font-size:25px;
     color:white;
     float: left;
 }
 
 .header-logo b{
     padding: 7px 0px 0px 5px;
-    font-size: 20px;
     float : right;
 }
 
@@ -32,9 +31,23 @@ a{
     height:30px;
 }
 
-.navbar{
+.titleblock{
+    margin-left:25%;
+    background-color:#0001;
+    width : 750px;
+    color:white;
+    height:40px;
+    box-shadow: 2px 2px 50px grey;
+}
+
+.navbar ul{
+    list-style-type: none;
+}
+
+.navbar li{
+    font-size:25px;
     float: right;
-    padding:8px 30px 0px 30px;
+    padding:8px 50px 0px 0px;
 }
 
 .navbar a:hover{
@@ -42,29 +55,31 @@ a{
 }
 
 .navigation{
-    padding-left: 30px;
+    padding-left: 20px;
     padding-top:4px;
     height: 27px;
     position: absolute;
     top:487px;
-    left:33%;
+    left:37%;
+    box-shadow: 2px 2px 50px grey;
     transform: translate(1px);
     z-index: 1;
-    background-color:#0009;
+    background-color:#FFFAF0;
 }
 
 .navigation li{
     list-style-type: none;
     display: inline-block;
+    font-size:20px;
     width: 145px;
 }
 
 .navigation li a{
-    color:grey;
+    color:rgb(0,0,0);
 }
 
 .navigation li a:hover{
-    background-color:Snow;
+    background-color:#f39d1a;
 }
 
 .main{
@@ -74,14 +89,9 @@ a{
     width: 100%; 
 }
 
-.titleblock{
-    background-color:#0009;
-    color:white;
-    height:40px;
-}
-
-.info{ 
-    background-color:#011a32; 
+.info{
+    //background-color:#FFFFF0;
+    background-color:#FFF5EE;  
 }
 
 .quote {
@@ -94,7 +104,7 @@ a{
     color:green;
 }
 
-.Motive , .Events  {
+.Motive {
     width: 800px;
     height: 800px;
     margin-left: 350px;
@@ -111,26 +121,11 @@ a{
     color:white;
 }
 
-.Motive p , .Events p ,.Team-Member p{
+.Motive p ,.Team-Member p{
     font-size:35px;
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: bold;
-    color:rgb(255, 255, 255 );
-}
-
-.Events li{
-    padding-top:40px;
-    font-size: 50px;
-    color:white;
-}
-
-.Events span {
-    color:white;
-    text-decoration: underline;
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size:50px;
-    font-family: 'Open Sans Condensed', sans-serif;
+    color:rgb( 0,0,0 );
 }
 
 .Team-Member span{
